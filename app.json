@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/cook/cook",
+    "pages/find/find",
+    "pages/favorite/favorite",
+    "pages/me/me",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#545454",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "下厨房"
+  },
+  "tabBar": {
+    "backgroundColor": "#545454",
+    "color": "#f80",
+    "selectedColor": "#00ff00",
+    "list": [
+      {
+        "pagePath": "pages/cook/cook",
+        "text": "下厨房",
+        "iconPath": "icons/cook.png",
+        "selectedIconPath": "icons/cook_selected.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "icons/find.png",
+        "selectedIconPath": "icons/find_selected.png"
+      },
+      {
+        "pagePath": "pages/favorite/favorite",
+        "text": "收藏",
+        "iconPath": "icons/favorite.png",
+        "selectedIconPath": "icons/favorite_selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "icons/me.png",
+        "selectedIconPath": "icons/me_selected.png"
+      }
+    ]
+  }
+}
