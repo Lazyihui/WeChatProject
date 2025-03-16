@@ -5,7 +5,38 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        categories: [
+            {
+                id: 1,
+                image: "/images/category1.png",
+                name: "家常菜",
+                description: "简单易学"
+            },
+            {
+                id: 2,
+                image: "/images/category2.png",
+                name: "甜品",
+                description: "甜蜜美味，"
+            },
+            {
+                id: 3,
+                image: "/images/category3.png",
+                name: "汤类",
+                description: "营养丰富，"
+            },
+            {
+                id: 4,
+                image: "/images/category3.png",
+                name: "汤类",
+                description: "营养丰富，"
+            },
+            {
+                id: 5,
+                image: "/images/category3.png",
+                name: "汤类",
+                description: "营养丰富，"
+            }
+        ]
     },
 
     /**
