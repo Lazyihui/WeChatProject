@@ -30,13 +30,13 @@
       },
       {
         "pagePath": "pages/favorite/favorite",
-        "text": "收藏",
+        "text": "首页",
         "iconPath": "icons/favorite.png",
         "selectedIconPath": "icons/favorite_selected.png"
       },
       {
         "pagePath": "pages/me/me",
-        "text": "我的",
+        "text": "个人中心",
         "iconPath": "icons/me.png",
         "selectedIconPath": "icons/me_selected.png"
       }

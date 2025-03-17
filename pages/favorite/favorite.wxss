@@ -1,1 +1,37 @@
-/* pages/favorite/favorite.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 100%;
+}
+
+.welcome {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    /* 欢迎语居中 */
+    width: 100%;
+    /* 确保欢迎语占满整行 */
+}
+
+.avatar image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.nickname,
+.constellation,
+.interest,
+.qq,
+.phone {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    text-align: left;
+    /* 确保文本左对齐 */
+}

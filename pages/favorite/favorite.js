@@ -5,7 +5,11 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        nickname: '泡芙',
+        constellation: '射手',
+        interest: '打游戏',
+        qq: '17777777',
+        phone: '15959777777'
     },
 
     /**

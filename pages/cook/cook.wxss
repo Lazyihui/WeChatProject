@@ -65,13 +65,10 @@
     color: #666;
 }
 .category {
-    flex-wrap: wrap;
-    justify-content: space-around;
     width: 100%;
     padding: 10px;
     /* 距离左边10 */
     margin-left: 20px;
-    
 }
 .category-item {
     display: flex;
